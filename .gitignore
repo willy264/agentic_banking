@@ -1,0 +1,18 @@
+# Local credentials and environment settings
+.env
+.env.*
+!.env.example
+
+# Downloaded research caches; retain authored reports and brief evidence
+/research/hackathon-js/
+/research/hackathon-flight.txt
+/research/*.html
+/research/*.js
+/research/t0-*.md
+/research/t0-docs-index.txt
+/research/metal-*.md
+/research/metal-llms.txt
+
+# Operating-system files
+.DS_Store
+Thumbs.db
